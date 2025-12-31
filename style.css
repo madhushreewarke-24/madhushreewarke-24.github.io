@@ -214,3 +214,22 @@ footer {
     display: none;
   }
 }
+
+/* ============================= */
+/* HERO IMAGE ABOVE TEXT (MOBILE) */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    order: 1;          /* image first */
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    order: 2;          /* text after image */
+  }
+}
