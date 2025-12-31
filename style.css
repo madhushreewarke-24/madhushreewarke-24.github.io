@@ -335,3 +335,42 @@ footer {
 .section {
   border-top: 1px solid rgba(34, 197, 94, 0.15);
 }
+
+/* ============================= */
+/* MOBILE NAVBAR */
+/* ============================= */
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    gap: 15px;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .nav-btn {
+    margin-top: 10px;
+  }
+}
+
