@@ -110,3 +110,93 @@ footer {
   padding: 20px;
   background: #f3f4f6;
 }
+
+/* ===================== */
+/* RESPONSIVE DESIGN */
+/* ===================== */
+
+/* Tablets */
+@media (max-width: 900px) {
+
+  nav {
+    padding: 15px 30px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+
+  .image-bg {
+    right: -10px;
+    top: -10px;
+  }
+
+  .stats {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .section {
+    padding: 60px 30px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 600px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-bg {
+    display: none;
+  }
+
+  .hero-image img {
+    width: 220px;
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats div {
+    text-align: center;
+  }
+
+  footer {
+    font-size: 0.85rem;
+  }
+}
+
