@@ -179,8 +179,29 @@ footer {
     flex-direction: column;
     gap: 25px;
   }
+  /* ============================= */
+/* MOBILE NAVBAR TEXT SIZE FIX */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  .nav-links a {
+    font-size: 0.9rem;   /* reduced text size */
+  }
+
+  .logo {
+    font-size: 1.2rem;   /* slightly smaller logo */
+  }
+}
+
 
   .section {
     padding: 60px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links a {
+    font-size: 0.85rem;
   }
 }
