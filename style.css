@@ -1,87 +1,112 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  box-sizing: border-box;
 }
 
-header {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 40px 20px;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: #1f2937;
 }
 
-section {
-  padding: 30px;
-  max-width: 900px;
-  margin: auto;
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
 }
 
-h2 {
-  color: #222;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
 }
 
-ul {
-  list-style: square;
+nav a {
+  text-decoration: none;
+  color: #1f2937;
 }
 
+.nav-btn {
+  background: #22c55e;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
 
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px 60px;
+}
 
+.hero-text {
+  max-width: 50%;
+}
+
+.hero h1 span {
+  color: #22c55e;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.image-bg {
+  width: 280px;
+  height: 280px;
+  background: #22c55e;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  z-index: -1;
+}
+
+.hero-image img {
+  width: 280px;
+  border-radius: 12px;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.stats h2 {
+  color: #22c55e;
+}
+
+/* SECTIONS */
 .section {
   padding: 80px 60px;
 }
 
-.section h2 {
-  margin-bottom: 25px;
-  color: #38bdf8;
+.light {
+  background: #f9fafb;
 }
 
-.section p {
-  max-width: 900px;
-  line-height: 1.7;
-  margin-bottom: 15px;
+/* CARDS */
+.cards, .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
 }
 
-.alt {
-  background: #020617;
-}
-
-.card {
-  background: #0f172a;
-  padding: 25px;
-  margin-bottom: 20px;
+.card, .project-card, .experience-card {
+  background: white;
+  padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
 
-.card h3 {
-  color: #38bdf8;
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f3f4f6;
 }
-
-.card h4 {
-  font-weight: 400;
-  margin-top: 5px;
-}
-
-.card span {
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
-
-.card ul {
-  margin-top: 15px;
-  padding-left: 20px;
-}
-
-.card li {
-  margin-bottom: 8px;
-}
-
-a {
-  color: #38bdf8;
-  text-decoration: none;
-}
-
