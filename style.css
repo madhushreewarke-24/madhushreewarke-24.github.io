@@ -286,3 +286,52 @@ footer {
     padding: 50px 20px;
   }
 }
+
+/* ============================= */
+/* SECTION BACKGROUND COLORS */
+/* White + Green Combination */
+/* ============================= */
+
+/* Navbar */
+nav {
+  background-color: #ffffff;
+}
+
+/* Hero */
+.hero {
+  background-color: #ffffff;
+}
+
+/* Stats */
+.stats {
+  background-color: #ecfdf5; /* light green */
+}
+
+/* About / Why Hire Me */
+#about {
+  background-color: #ffffff;
+}
+
+/* Experience */
+#experience {
+  background-color: #ecfdf5; /* light green */
+}
+
+/* Projects */
+#projects {
+  background-color: #ffffff;
+}
+
+/* Contact */
+#contact {
+  background-color: #ecfdf5; /* light green */
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+}
+
+.section {
+  border-top: 1px solid rgba(34, 197, 94, 0.15);
+}
