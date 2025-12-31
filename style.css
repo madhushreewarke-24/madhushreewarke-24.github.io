@@ -205,3 +205,12 @@ footer {
     font-size: 0.85rem;
   }
 }
+/* ============================= */
+/* HIDE LOGO ON MOBILE */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}
