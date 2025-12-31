@@ -2,81 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Madhushree Warke | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madhushree Warke | AI/ML Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <h1>Madhushree Warke</h1>
-    <p>Computer Engineering Student | Aspiring Data Analyst</p>
-  </header>
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">MW</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="resume.pdf" download class="nav-btn">Download CV</a>
+</nav>
 
-  <section id="about">
-    <h2>About Me</h2>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <span class="welcome">Welcome 👋</span>
+    <h1>
+      I have <br />
+      <span>AI & Data Science</span><br />
+      Experience
+    </h1>
+
     <p>
-      I am a third-year Computer Engineering student passionate about data analysis,
-      machine learning, and building meaningful projects.
+      I’m Madhushree Warke, a 3rd-Year Computer Engineering student
+      and aspiring AI/ML Engineer with hands-on experience in
+      Machine Learning, Data Analysis, and real-world projects.
     </p>
-  </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>Data Analysis</li>
-      <li>SQL</li>
-      <li>Machine Learning</li>
-      <li>HTML & CSS</li>
-    </ul>
-  </section>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn primary">Contact Me</a>
+      <a href="#projects" class="btn outline">View Projects</a>
+    </div>
+  </div>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Heart Failure Mortality Prediction (ML Project)</p>
-    <p>Sales Data Analysis Dashboard</p>
-  </section>
+  <div class="hero-image">
+    <div class="image-bg"></div>
+    <img src="profile.jpeg" alt="Madhushree Warke">
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your-email@gmail.com</p>
-    <p>GitHub: github.com/madhushreewarke-24</p>
-  </section>
+<!-- STATS -->
+<section class="stats">
+  <div><h2>4+</h2><p>ML & DS Projects</p></div>
+  <div><h2>6+</h2><p>Certifications</p></div>
+  <div><h2>1</h2><p>Govt Internship (IMD)</p></div>
+  <div><h2>1</h2><p>Published Patent</p></div>
+</section>
 
-
-
-  <!-- ABOUT ME -->
+<!-- ABOUT -->
 <section id="about" class="section">
-  <h2>About Me</h2>
-  <p>
-    I am a third-year Computer Engineering student and an aspiring AI/ML Engineer
-    with a strong focus on Machine Learning and Data Science. I have a solid
-    academic foundation in Data Structures, Object-Oriented Programming, and
-    Database Management Systems, which I apply while building real-world models
-    using Python and TensorFlow.
-  </p>
-  <p>
-    Along with technical skills, I possess strong leadership and organizational
-    abilities gained through my roles as an Event Management Coordinator and
-    Training Coordinator in college committees. I am currently seeking internship
-    opportunities to explore and apply my skills in real-world environments.
-  </p>
+  <h2>Why Hire Me?</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>AI & Machine Learning</h3>
+      <p>Experience with CNNs, Vision Transformers, TensorFlow, and Keras.</p>
+    </div>
+    <div class="card">
+      <h3>Data Analysis</h3>
+      <p>Strong in EDA, data cleaning, visualization using pandas, Tableau, and Power BI.</p>
+    </div>
+    <div class="card">
+      <h3>Problem Solving & Leadership</h3>
+      <p>Solid DSA foundation with leadership roles in college committees.</p>
+    </div>
+  </div>
 </section>
 
 <!-- EXPERIENCE -->
-<section id="experience" class="section alt">
+<section id="experience" class="section light">
   <h2>Experience</h2>
-
-  <div class="card">
+  <div class="experience-card">
     <h3>Data Analyst Intern</h3>
-    <h4>Indian Meteorological Department (IMD)</h4>
-    <span>October 2025 – November 2025</span>
-
+    <span>Indian Meteorological Department (IMD) • Oct 2025 – Nov 2025</span>
     <ul>
-      <li>Improved Python programs to process Excel datasets and generate graphical visualizations.</li>
-      <li>Automated data extraction, cleaning, and visualization for efficient reporting.</li>
-      <li>Created insightful charts using pandas and matplotlib for analytical purposes.</li>
+      <li>Automated Excel data processing using Python.</li>
+      <li>Built analytical visualizations with pandas & matplotlib.</li>
+      <li>Improved reporting efficiency through clean pipelines.</li>
     </ul>
   </div>
 </section>
@@ -84,55 +94,46 @@
 <!-- PROJECTS -->
 <section id="projects" class="section">
   <h2>Projects</h2>
+  <div class="project-grid">
 
-  <div class="card">
-    <h3>Object Detection Using TensorFlow</h3>
-    <p>
-      Enhanced a single-digit object detection system using a CNN model trained on
-      the MNIST dataset, incorporating bounding box regression and classification
-      heads to accurately detect digits and their positions.
-    </p>
-  </div>
+    <div class="project-card">
+      <h3>Object Detection (TensorFlow)</h3>
+      <p>CNN-based digit detection with bounding box regression.</p>
+    </div>
 
-  <div class="card">
-    <h3>Vision Transformer (ViT)</h3>
-    <p>
-      Built a Vision Transformer model from scratch using TensorFlow and Keras for
-      image classification on the CIFAR-10 dataset, implementing custom layers for
-      patch extraction and positional encoding.
-    </p>
-  </div>
+    <div class="project-card">
+      <h3>Vision Transformer (ViT)</h3>
+      <p>Custom ViT built from scratch for CIFAR-10 classification.</p>
+    </div>
 
-  <div class="card">
-    <h3>Heart Failure Mortality Prediction</h3>
-    <p>
-      Developed and compared SVM and ANN models using clinical data to predict
-      mortality in heart failure patients. The ANN model achieved better accuracy
-      and F1-score for identifying high-risk individuals.
-    </p>
-  </div>
+    <div class="project-card">
+      <h3>Heart Failure Mortality Prediction</h3>
+      <p>Compared SVM and ANN models to identify high-risk patients.</p>
+    </div>
 
-  <div class="card">
-    <h3>Credit Risk Exploratory Data Analysis</h3>
-    <p>
-      Performed detailed EDA on credit application data involving data cleaning,
-      missing value handling, feature engineering, and correlation analysis to
-      identify key risk factors affecting loan default.
-    </p>
+    <div class="project-card">
+      <h3>Credit Risk EDA</h3>
+      <p>Exploratory analysis, feature engineering, and correlation insights.</p>
+    </div>
+
   </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="section alt">
+<section id="contact" class="section light">
   <h2>Contact</h2>
-
-  <p><strong>Email:</strong> madhushreewarke24@gmail.com</p>
-  <p><strong>Phone:</strong> +91 7020517541</p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/madhushreewarke-24" target="_blank">github.com/madhushreewarke-24</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/madhushree-warke-922695289" target="_blank">linkedin.com/in/madhushree-warke-922695289</a></p>
-  <p><strong>Location:</strong> Pune, Maharashtra</p>
+  <p>Email: madhushreewarke24@gmail.com</p>
+  <p>Phone: +91 7020517541</p>
+  <p>GitHub: github.com/madhushreewarke-24</p>
+  <p>LinkedIn: linkedin.com/in/madhushree-warke-922695289</p>
+  <p>Location: Pune, Maharashtra</p>
 </section>
+
+<footer>
+  © 2025 Madhushree Warke
+</footer>
 
 </body>
 </html>
+
 
