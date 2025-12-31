@@ -111,8 +111,9 @@ body {
 
 /* SECTIONS */
 .section {
-  padding: 80px 60px;
+  padding: 110px 60px; /* increased section height */
 }
+
 
 .section.light {
   background-color: #ecfdf5;
