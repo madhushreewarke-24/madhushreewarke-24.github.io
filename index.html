@@ -2,175 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Madhushree Warke | AI/ML Portfolio</title>
-  <link rel="stylesheet" href="style-final.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madhushree Warke | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar">
-  <div class="nav-left">
+  <!-- NAVBAR -->
+  <nav class="navbar">
     <div class="logo">MW</div>
-  </div>
-
-  <div class="nav-right">
-    <div class="menu-toggle" id="menuToggle">☰</div>
-  </div>
-
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li class="mobile-btn">
-      <a href="resume.pdf" download class="nav-btn">Download CV</a>
-    </li>
-  </ul>
-</nav>
-
-
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-text">
-    <span class="welcome">Welcome 👋</span>
-    <h1>
-      I am Madhushree Warke, I have <br />
-      <span>AI & Data Science</span><br />
-      Experience
-    </h1>
-
-    <p>
-      I’m a 3rd-Year Computer Engineering student
-      and aspiring AI/ML Engineer with hands-on experience in
-      Machine Learning, Data Analysis, and real-world projects.
-    </p>
-
-    <div class="hero-buttons">
-      <a href="#contact" class="btn primary">Contact Me</a>
-      <a href="#projects" class="btn outline">View Projects</a>
-    </div>
-  </div>
-
-  <div class="hero-image">
-    <div class="image-bg"></div>
-    <img src="profile.jpeg" alt="Madhushree Warke">
-  </div>
-</section>
-
-<!-- STATS -->
-<section class="stats">
-  <div><h2>4+</h2><p>ML & DS Projects</p></div>
-  <div><h2>6+</h2><p>Certifications</p></div>
-  <div><h2>1</h2><p>Govt Internship (IMD)</p></div>
-  <div><h2>1</h2><p>Published Patent</p></div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="section">
-  <h2>Why Hire Me?</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>AI & Machine Learning</h3>
-      <p>Experience with CNNs, Vision Transformers, TensorFlow, and Keras.</p>
-    </div>
-    <div class="card">
-      <h3>Data Analysis</h3>
-      <p>Strong in EDA, data cleaning, visualization using pandas, Tableau, and Power BI.</p>
-    </div>
-    <div class="card">
-      <h3>Problem Solving & Leadership</h3>
-      <p>Solid DSA foundation with leadership roles in college committees.</p>
-    </div>
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section light">
-  <h2>Experience</h2>
-  <div class="experience-card">
-    <h3>Data Analyst Intern</h3>
-    <span>Indian Meteorological Department (IMD) • Oct 2025 – Nov 2025</span>
-    <ul>
-      <li>Automated Excel data processing using Python.</li>
-      <li>Built analytical visualizations with pandas & matplotlib.</li>
-      <li>Improved reporting efficiency through clean pipelines.</li>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </div>
-</section>
+  </nav>
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
-  <h2>Projects</h2>
-  <div class="project-grid">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>
+        Hi, I’m <span>Madhushree Warke</span>
+      </h1>
+      <p>
+        3rd-Year Computer Engineering student and aspiring AI/ML Engineer
+        with strong interest in Machine Learning, Data Science, and real-world problem solving.
+      </p>
 
-    <div class="project-card">
-      <h3>Object Detection (TensorFlow)</h3>
-      <p>CNN-based digit detection with bounding box regression.</p>
+      <div class="hero-buttons">
+        <a href="resume.pdf" download class="btn">Download CV</a>
+      </div>
     </div>
 
-    <div class="project-card">
-      <h3>Vision Transformer (ViT)</h3>
-      <p>Custom ViT built from scratch for CIFAR-10 classification.</p>
+    <div class="hero-image">
+      <div class="image-bg"></div>
+      <img src="profile.jpg" alt="Madhushree Warke">
     </div>
+  </section>
 
-    <div class="project-card">
-      <h3>Heart Failure Mortality Prediction</h3>
-      <p>Compared SVM and ANN models to identify high-risk patients.</p>
+  <!-- STATS -->
+  <section class="stats">
+    <div>
+      <h2>4+</h2>
+      <p>ML & DS Projects</p>
     </div>
-
-    <div class="project-card">
-      <h3>Credit Risk EDA</h3>
-      <p>Exploratory analysis, feature engineering, and correlation insights.</p>
+    <div>
+      <h2>6+</h2>
+      <p>Certifications</p>
     </div>
+    <div>
+      <h2>1</h2>
+      <p>Govt Internship</p>
+    </div>
+    <div>
+      <h2>1</h2>
+      <p>Published Patent</p>
+    </div>
+  </section>
 
-  </div>
-</section>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>Why Hire Me?</h2>
 
-<!-- CONTACT -->
-<section id="contact" class="section light">
-  <h2>Contact</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>AI & Machine Learning</h3>
+        <p>Hands-on experience with TensorFlow, CNNs, and Vision Transformers.</p>
+      </div>
+      <div class="card">
+        <h3>Data Analysis</h3>
+        <p>Strong foundation in EDA, data cleaning, visualization using Python tools.</p>
+      </div>
+      <div class="card">
+        <h3>Problem Solving</h3>
+        <p>Good command of DSA, DBMS, and leadership experience in college activities.</p>
+      </div>
+    </div>
+  </section>
 
-  <p>
-    📧 <strong>Email:</strong>
-    <a href="mailto:madhushreewarke24@gmail.com">
-      madhushreewarke24@gmail.com
-    </a>
-  </p>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section light">
+    <h2>Experience</h2>
 
-  <p>
-    📞 <strong>Phone:</strong>
-    <a href="tel:+917020517541">
-      +91 7020517541
-    </a>
-  </p>
+    <div class="experience-card">
+      <h3>Data Analyst Intern</h3>
+      <p><strong>Indian Meteorological Department (IMD)</strong></p>
+      <p>Oct 2025 – Nov 2025</p>
+      <ul>
+        <li>Automated Excel data processing using Python.</li>
+        <li>Created data visualizations using pandas & matplotlib.</li>
+        <li>Improved reporting efficiency through automation.</li>
+      </ul>
+    </div>
+  </section>
 
-  <p>
-    💻 <strong>GitHub:</strong>
-    <a href="https://github.com/madhushreewarke-24" target="_blank">
-      github.com/madhushreewarke-24
-    </a>
-  </p>
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
 
-  <p>
-    🔗 <strong>LinkedIn:</strong>
-    <a href="https://www.linkedin.com/in/madhushree-warke-922695289" target="_blank">
-      linkedin.com/in/madhushree-warke-922695289
-    </a>
-  </p>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Object Detection (TensorFlow)</h3>
+        <p>CNN-based digit detection with bounding box regression.</p>
+      </div>
 
-  <p>
-    📍 <strong>Location:</strong> Pune, Maharashtra
-  </p>
-</section>
+      <div class="project-card">
+        <h3>Vision Transformer (ViT)</h3>
+        <p>Built from scratch for CIFAR-10 classification.</p>
+      </div>
 
-<footer>
-  © 2025 Madhushree Warke
-</footer>
+      <div class="project-card">
+        <h3>Heart Failure Mortality Prediction</h3>
+        <p>Compared SVM and ANN models using clinical data.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Credit Risk EDA</h3>
+        <p>EDA, feature engineering, and correlation analysis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section light">
+    <h2>Contact</h2>
+
+    <p>📧 <a href="mailto:madhushreewarke24@gmail.com">madhushreewarke24@gmail.com</a></p>
+    <p>📞 <a href="tel:+917020517541">+91 7020517541</a></p>
+    <p>💻 <a href="https://github.com/madhushreewarke-24" target="_blank">GitHub</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/madhushree-warke-922695289" target="_blank">LinkedIn</a></p>
+    <p>📍 Pune, Maharashtra</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Madhushree Warke
+  </footer>
 
 </body>
 </html>
-
-
