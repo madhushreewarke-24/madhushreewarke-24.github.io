@@ -80,6 +80,13 @@ body {
 .stats p {
   font-size: 1rem;
 }
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px 20px;
+  }
+}
 
 
 /* SECTIONS */
