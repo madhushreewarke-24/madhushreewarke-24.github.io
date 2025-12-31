@@ -11,23 +11,7 @@ body {
 }
 
 /* NAV */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-}
 
-nav ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-
-nav a {
-  text-decoration: none;
-  color: #1f2937;
-}
 
 .nav-btn {
   background: #22c55e;
@@ -152,18 +136,6 @@ footer {
 }
 
 /* Mobile Phones */
-@media (max-width: 600px) {
-
-  nav {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
 
   .hero h1 {
     font-size: 2rem;
@@ -292,10 +264,6 @@ footer {
 /* White + Green Combination */
 /* ============================= */
 
-/* Navbar */
-nav {
-  background-color: #ffffff;
-}
 
 /* Hero */
 .hero {
@@ -387,6 +355,56 @@ footer {
 }
 
 /* ============================= */
+/* NAVBAR (FINAL CLEAN VERSION) */
+/* ============================= */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #22c55e;
+}
+
+/* Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+/* Download button */
+.nav-btn {
+  background: #22c55e;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Hamburger */
+.menu-toggle {
+  display: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* ============================= */
 /* MOBILE NAVBAR */
 /* ============================= */
 
@@ -413,8 +431,6 @@ footer {
   .nav-links.active {
     display: flex;
   }
-
-  .mobile-btn {
-    margin-top: 10px;
-  }
 }
+
+
