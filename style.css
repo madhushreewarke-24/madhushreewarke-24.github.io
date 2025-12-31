@@ -83,14 +83,12 @@ body {
   position: relative;
 }
 
-.image-bg {
-  width: 280px;
-  height: 280px;
-  background-color: #22c55e;
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  z-index: -1;
+.profile-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ecfdf5; /* subtle soft green ring */
 }
 
 .hero-image img {
@@ -190,5 +188,11 @@ footer {
 
   .section {
     padding: 60px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .profile-img {
+    width: 200px;
+    height: 200px;
   }
 }
