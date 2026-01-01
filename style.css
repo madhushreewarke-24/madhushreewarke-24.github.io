@@ -226,7 +226,7 @@ footer {
 
   .hero p {
     margin-top: 20px;
-    font-size: 8px;
+    font-size: 14px;
   }
   
   .hero-image {
@@ -244,6 +244,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    left-margin: 20px;
   }
 
   /* STATS */
