@@ -189,6 +189,58 @@ body {
   text-decoration: underline;
 }
 
+<section id="contact" class="section light">
+  <h2>CONTACT</h2>
+
+  <div class="contact-card">
+
+    <p>
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:madhushreewarke24@gmail.com">
+        madhushreewarke24@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <i class="fas fa-phone"></i>
+      <a href="tel:+917020517541">
+        +91 7020517541
+      </a>
+    </p>
+
+    <p>
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/madhushreewarke-24" target="_blank">
+        GitHub
+      </a>
+    </p>
+
+    <p>
+      <i class="fab fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/madhushree-warke-922695289" target="_blank">
+        LinkedIn
+      </a>
+    </p>
+
+    <p>
+      <i class="fas fa-location-dot"></i>
+      Pune, Maharashtra
+    </p>
+
+  </div>
+</section>
+
+/* ============================= */
+/* CONTACT ICONS */
+/* ============================= */
+
+.contact-card i {
+  color: #22c55e;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 /* ============================= */
 /* FOOTER */
 /* ============================= */
