@@ -303,3 +303,35 @@ footer {
     font-size: 0.85rem;
   }
 }
+
+/* ============================= */
+/* FORCE CONTACT GRID LAYOUT */
+/* ============================= */
+
+#contact .contact-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 30px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#contact .contact-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+}
+
+#contact .contact-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #contact .contact-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
