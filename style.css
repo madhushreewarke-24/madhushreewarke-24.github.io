@@ -129,7 +129,7 @@ body {
 /* ============================= */
 
 .section {
-  padding: 110px 60px; /* section height */
+  padding: 90px 50px; /* section height */
 }
 
 .section.light {
@@ -139,7 +139,7 @@ body {
 .section h1 {
   font-weight: 700;
   text-align: center;
-  margin-bottom: 100px; /* space below heading */
+  margin-bottom: 80px; /* space below heading */
 }
 
 /* ============================= */
