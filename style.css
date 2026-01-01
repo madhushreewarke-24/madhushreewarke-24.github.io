@@ -189,7 +189,7 @@ body {
 }
 
 <section id="contact" class="section light">
-  <h2>CONTACT</h2>
+  <h1>CONTACT</h1>
 
   <div class="contact-card">
 
@@ -232,7 +232,9 @@ body {
 /* ============================= */
 /* CONTACT ICONS */
 /* ============================= */
-
+.contact h1 {
+  text-align: center
+}
 .contact-card i {
   color: #22c55e;
   font-size: 1.1rem;
@@ -245,15 +247,15 @@ body {
 
 .contact-card p {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   gap: 12px;
   margin-bottom: 18px;
 }
 
 .contact-icon {
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
 }
 
