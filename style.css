@@ -234,8 +234,10 @@ footer {
   }
 
   .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
   }
 
   /* STATS */
