@@ -92,7 +92,7 @@ body {
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #ecfdf5;
+  border: 8px solid #ecfdf5;
 }
 
 /* STATS */
