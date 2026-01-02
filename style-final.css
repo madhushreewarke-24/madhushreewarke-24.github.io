@@ -145,9 +145,18 @@ body {
   margin-bottom: 80px; /* space below heading */
 }
 
+
 .section h2 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
   margin-bottom: 40px;
 }
+.section.light {
+  border-top: 1px solid rgba(34, 197, 94, 0.25);
+}
+
 /* ============================= */
 /* CARDS */
 /* ============================= */
@@ -334,4 +343,18 @@ footer {
   #contact .contact-grid {
     grid-template-columns: 1fr !important;
   }
+}
+
+/* Card hover effect */
+.card,
+.project-card,
+.experience-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.project-card:hover,
+.experience-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
